@@ -18,7 +18,7 @@
     "sites": [
       {
             "key": "豆瓣影音",
-            "name": "看阿里高清需推送token，找不到影片就换 线路",
+            "name": "看阿里需推送token，无影片源就换 线路",
             "type": 3,
             "api": "https://jihulab.com/duomv/xduo/-/raw/main/js/drpy2.js",
             "searchable": 0,
