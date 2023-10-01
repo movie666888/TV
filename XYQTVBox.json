@@ -2,10 +2,10 @@
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
     "spider": "./custom_spider.jar",
     "lives": [
-        {
+          {
             "name": "直播",
             "type": 0,
-            "url": "https://ghproxy.com/https://raw.githubusercontent.com/shenjh2023/TV/main/live.txt",
+            "url": "./直播.txt",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
         },
         {
