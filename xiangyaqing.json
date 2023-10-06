@@ -2,22 +2,33 @@
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
     "spider": "./custom_spider.jar",
     "lives": [
-          {
-            "name": "直播",
-            "type": 0,
-            "url": "./直播.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+        {
+          "name": "直播",
+          "type": 0,
+          "playerType": 1,
+          "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+          //"url": "./直播.txt",
+          //"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+          "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
+          //"logo": "http://epg.51zmt.top:8000/api/diyp/logo/{name}.png"
+          "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "redirect",
-            "type": 0,
-            "url": "./redirect.txt",
-            "epg": ""
+            "group": "redirect",
+            "channels": [
+                {
+                    "name": "live",
+                    "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+                    //"urls": ["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL09uZUNsaWNrUnVuL2xpdmUudHh0"]
+                    //"urls": ["proxy://do=live&type=txt&ext=https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"]
+                    //"urls": ["proxy://do=live&type=txt&ext=http://dlq.gmqd.com/upload/20220921115985878587.txt"]
+                    "urls": ["proxy://do=live&type=txt&ext=http://home.jundie.top:81/ray/tvlive.txt"]
+                }
+            ]
         }
     ],
-
     "sites": [
-        {
+ {
             "key": "豆瓣影音",
             "name": "看阿里需推送token，无片源就换 线路",
             "type": 3,
@@ -27,8 +38,8 @@
             "filterable": 1,
             "ext": "https://jihulab.com/duomv/xduo/-/raw/main/js/douban.js"
         },	
-
-   {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
+        {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
+        {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
         {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/奇珍异兽.js"},
         {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/优酷.js"},
         {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/腾云驾雾.js"},
@@ -185,15 +196,12 @@
         //{"name":"Json轮询","type":2,"url":"Sequence"},
         //{"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Web聚合","type":3,"url":"Web"},
-        {"name":"-咸鱼-","type":0,"url":"https://jx.xyflv.cc/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://www.xyflv.cc/"}}},
-        {"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"}}},
-        {"name":"-爱酷-","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}},
-        {"name":"-云解析-","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-777-","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-剖云-","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
-        {"name":"-爱豆-","type":0,"url":"https://jx.aidouer.net/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36","referer":"https://jiejie.uk/"}}}
-        
+        {"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url="},
+        {"name":"-爱酷-","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
+        {"name":"-云解析-","type":0,"url":"https://jx.yparse.com/index.php?url="},
+        {"name":"-777-","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
+        {"name":"-剖云-","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url="},
+        {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url="}
         
     ],
     "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi"],
