@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "csp_DouDou",
-            "name": "🔍豆瓣┃南风提醒本接口免费-🈲贩卖",
+            "name": "🔍南风┃提醒本接口免费-🈲贩卖",
             "type": 3,
             "api": "csp_DouDou",
             "searchable": 0,
@@ -440,7 +440,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "分类url": "https://shdy3.com/list/{cateId}-{catePg}.html;;r1da",
+                "分类url": "https://saohuo.vip/list/{cateId}-{catePg}.html;;r1da",
                 "分类": "电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4",
                 "ocr": "https://api.xhofe.top/ocr/b64/text",
                 "数组二次截取": "class=\"v_list\">&&</ul>",
@@ -471,6 +471,26 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/乐猪.json"
+        },
+        {
+            "key": "蜗牛",
+            "name": "💢蜗牛(有广告)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "playStartTime": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "二次截取": "module-items&&<footer id=+module-item-cover",
+                "数组": "module-item-pic&&module-item-cover",
+                "副标题": "module-item-text*>&&</div>",
+                "简介": "剧情：</span>&&</span>",
+                "播放数组": "\"module-blocklist\">&&</div>",
+                "播放标题": "<span>&&</span>",
+                "分类": "电影$1#海外剧$2#日韩剧$21#动漫$20",
+                "分类url": "https://v.woniufan.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html;;m"
+            }
         },
         {
             "key": "Freeok",
@@ -675,19 +695,45 @@
     ],
     "parses": [
         {
-            "name": "Json聚合",
-            "type": 3,
-            "url": "Demo"
-        },
-        {
             "name": "Web聚合",
             "type": 3,
             "url": "Web"
         },
         {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
             "name": "哥哥们",
             "type": 1,
             "url": "http://jx.wogg.link:63/jiexi/饭特析.php?url="
+        },
+        {
+            "name": "战狼",
+            "type": 0,
+            "url": "https://jx.zhanlangbu.com/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ]
+            }
         },
         {
             "name": "777",
@@ -892,6 +938,25 @@
             "regex": [
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "wn",
+            "hosts": [
+                "vip.123pan.cn"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "nm",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
             ]
         },
         {
