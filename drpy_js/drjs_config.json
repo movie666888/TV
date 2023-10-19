@@ -1,11 +1,11 @@
-﻿{
+{
     "spider": "./custom_spider.jar",
     "rulefrom": "规则来自道长仓库 https://github.com/hjdhnx/dr_py",
     "rulepack": "香雅情整理打包(2023-08-22 22:39:59)",
     "sites": [
         {
             "key": "drpy_js_豆瓣",
-            "name": "[道长]豆瓣[js]",
+            "name": "豆瓣[js]",
             "type": 3,
             "api": "./libs/drpy2.min.js",
             "ext": "./js/drpy.js"
