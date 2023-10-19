@@ -7,7 +7,7 @@
           "type": 0,
           "playerType": 1,
           "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-          //"url": "./直播.txt",
+          //"url": "clan://XYQTVBox/live.txt",
           //"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
           "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
           //"logo": "http://epg.51zmt.top:8000/api/diyp/logo/{name}.png"
@@ -39,7 +39,7 @@
             "ext": "https://jihulab.com/duomv/xduo/-/raw/main/js/douban.js"
         },	
         {"key":"csp_LocalFile","name":"💻本地视频","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
-        {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
+        {"key":"drpy_js_豆瓣","name":"香佬豆瓣[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/drpy.js"},
         {"key":"drpy_js_奇珍异兽","name":"奇珍异兽[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/奇珍异兽.js"},
         {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/优酷.js"},
         {"key":"drpy_js_腾云驾雾","name":"腾云驾雾[js]","type":3,"api":"./drpy_js/libs/drpy2.min.js","ext":"./drpy_js/js/腾云驾雾.js"},
