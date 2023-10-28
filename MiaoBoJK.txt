@@ -17,15 +17,16 @@
   "sites": [
 
  {
-            "key": "豆瓣影音",
-            "name": "👇长按 主页 刷新-无片源就换 线路",
-            "type": 3,
-            "api": "https://jihulab.com/duomv/xduo/-/raw/main/js/drpy2.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://jihulab.com/duomv/xduo/-/raw/main/js/douban.js"
-        },	
+      "key": "豆瓣",
+      "name": "1023更新 观影专用仓 大昌影音作品",
+      "type": 3,
+      "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://drpy.cainisi.cf/js/drpy.js"
+    },
 
 {
       "key": "csp_77",
