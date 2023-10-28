@@ -1,5 +1,5 @@
 {
-  "spider": "https://jihulab.com/shenjh1976/jk/-/raw/main/jar/Yoursmile.jar",
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/shenjh2023/TV/main/Yoursmile/Yoursmile.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "warningText": "【267提示】每天更新 本接口免费，每次打开记得长按主页刷新！",
 
@@ -16,17 +16,11 @@
 
   "sites": [
 
- {
-      "key": "豆瓣",
-      "name": "👇长按 主页 刷新-无片源就换 线路",
-      "type": 3,
-      "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": "https://drpy.cainisi.cf/js/drpy.js"
-    },
+ {"key": "豆瓣",
+"name": "👇长按 主页 刷新-无片源就换 线路 ",
+"type": 3,
+"api": "./lib/drpy2.min.js",
+"ext": "./js/douban.js"},
 
 {
       "key": "csp_77",
