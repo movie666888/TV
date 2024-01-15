@@ -1,0 +1,11 @@
+{
+    "urls": [
+ 
+        
+        {"url": "https://biu.codered.cloud/wp-content/uploads/2023/11/福利接口-1.bmp ","name": "影院1"},
+        {"url": "https://pastebin.com/raw/u9Z12TYi","name": "影院2"},
+       {"url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ZTHA000/tvbox/main/thzx1.json","name": "影院3"},
+      {"url": "https://s2.pub/xmbjmfldx","name": "影院4"},
+     {"url": "https://s2.pub/sgqlwFL","name": "影院5"}
+    ]
+}

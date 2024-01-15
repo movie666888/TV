@@ -1,0 +1,89 @@
+﻿{
+    "urls":[  //资源来源于网络，若有冒犯，私信删除！ 
+
+{
+"url":"https://od.lk/s/NTVfMjc3OTc3NDRf/fast.txt",
+       "name":"267秒播-手机专用"
+      },	
+      
+{
+"url":"https://tvkj.top/tv4k/svip.json",
+       "name":"天微vip"
+      },	
+      
+{  "url":"http://tv.nxog.top/m/111.php?ou=%E6%AC%A7%E6%AD%8C&mz=index2&xl=&jar=index2
+",
+       "name":"讴歌线路-每日更新"
+      },
+
+ {
+        "url":"https://weixine.net/ysc.json",
+       "name":"运输车"
+      },
+      
+      {
+        "url":"http://rihou.vip:88/荷城茶秀",
+       "name":"荷城茶秀"
+      },
+
+{
+        "url":"http://肥猫.live",
+       "name": "肥猫极速"
+      },
+ 
+
+  {
+"url":"http://52bsj.vip:98/cl",
+       "name":"月光宝盒"
+      },
+
+    {
+        "url":"http://itvbox.cc/tvbox/云星日记/1.m3u8",
+       "name": "云星日记"
+      }, 
+      
+{
+        "url":"http://饭太硬.top/tv",
+       "name": "饭太硬线路"
+      },
+      
+      {        "url":"http://u6v.cn/6vX55k",
+       "name":"T4高清"
+      },
+
+{        "url":"http://我不是.摸鱼儿.top",
+       "name":"摸鱼4K"
+      },
+
+{
+      "url": "https://pan.shangui.cc/f/m3o3fb/4k.json",
+      "name": "青木4K"
+    },
+    
+      
+  {
+        "url":"https://raw.gitmirror.com/gaotianliuyun/gao/master/XYQ.json",
+       "name":"阿里香雅情"
+      },
+  
+{
+"url":"https://pan.shangui.cc/f/4LBAF0/ali.json",
+       "name":"阿里业余需token"
+      },
+    
+      {
+        "url":"https://pastebin.com/raw/5NHaxyGR",
+       "name":"道长线路"
+      },
+      
+{
+        "url":"https://agit.ai/gk0746/pxy/raw/branch/master/pxy.json",
+       "name": "飘香苑pxy"
+      },
+{
+"url":"https://my5353.com/liugongzi",
+       "name": "刘公子"
+      }
+    ]
+    
+}
